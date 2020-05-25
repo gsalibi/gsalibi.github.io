@@ -22,7 +22,7 @@ author_bio: Hi, my name is Gustavo  Salibi. I built this site using devlopr-jeky
 author_email: "gustavo.salibi@gmail.com"
 author_location: Brazil
 author_website_url: "http://gsalibi.gitthub.io"
-typewrite-text: Developer.
+typewrite-text: print(\"Let's develop it!\")
 
 author_work_experiences:
   - company_name: Google
