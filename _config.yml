@@ -25,11 +25,11 @@ author_location: Brazil
 typewrite-text: print(\"Let's develop it!\")
 
 author_work_experiences:
-  - company_name: Google
-    company_logo: google.png
-    company_url: https://google.com
-    designation: Software Engineer
-    description: Worked on various Google Products
+  - company_name: Apple Developer Academy (Feb 2019 - Present)
+    company_logo: developer_academy.png
+    company_url: https://developeracademy.eldorado.org.br/campinas
+    designation: Internship
+    description: Developed 6 complete projects for iOS by research with the target audience, designing the system and programming. Also developed other smaller projects. Use of agile methodologies.
     visibility: true
   - company_name: Microsoft
     company_logo: microsoft.png
@@ -39,11 +39,11 @@ author_work_experiences:
     visibility: true
 
 author_education_details:
-  - college_logo: mit.png
-    college_name: MIT
-    college_url: https://mit.org
-    college_degree: CS Engineer
-    description: Bachelor of Technology
+  - college_logo: unicamp.jpg
+    college_name: Bachelor of Computer Science
+    college_url: https://www.unicamp.br
+    college_degree: University of Campinas
+    description:  2016 - 2021
     visibility: true
 
 author_project_details:
@@ -90,7 +90,7 @@ google_analytics: UA-46783401-10
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # algolia search
 algolia:
