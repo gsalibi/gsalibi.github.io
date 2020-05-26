@@ -19,9 +19,9 @@ urls:
 author_logo: profile.png
 author: Gustavo  Salibi
 author_bio: My full name is Gustavo Henrique Storti Salibi. I am currently a student of computer science at the <a href="https://www.unicamp.br/unicamp/english" target="_blank">University of Campinas (Unicamp)</a> and intern at the <a href="https://developeracademy.eldorado.org.br/campinas/" target="_blank">Apple Developer Academy</a>.
-author_email: "gustavo.salibi@gmail.com"
+#author_email: "gustavo.salibi@gmail.com"
 author_location: Brazil
-author_website_url: "http://gsalibi.gitthub.io"
+#author_website_url: "http://gsalibi.github.io"
 typewrite-text: print(\"Let's develop it!\")
 
 author_work_experiences:
@@ -59,16 +59,16 @@ author_project_details:
     visibility: true
 
 # social links
-twitter_username: gsalibi
+#twitter_username: gsalibi
 github_username: gsalibi
-facebook_username: gsalibi
-linkedin_username: gsalibi
-behance_username: gsalibi
-instagram_username: gsalibi
-medium_username: gsalibi
+#facebook_username: gsalibi
+linkedin_username: GustavoSalibi
+#behance_username: gsalibi
+#instagram_username: gsalibi
+#medium_username: gsalibi
 telegram_username: gsalibi
-dribbble_username: gsalibi
-flickr_username: gsalibi
+#dribbble_username: gsalibi
+#flickr_username: gsalibi
 
 #for comments
 hyvor_talk_website_id: 476
