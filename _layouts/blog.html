@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="row" id="blog-posts-container">
+<div class="row m-0" id="blog-posts-container">
     <div class="col-lg-8 offset-md-1">
         <ul>
-            <div class="row">
+            <div class="row m-0">
                 {% for post in paginator.posts %}
                 <div class="card blog-post">
                     <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}"
@@ -23,7 +23,7 @@ layout: default
             </div>
         </ul>
 
-        <div class="row center">
+        <div class="row m-0 center">
             <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
             <ul class="pagination pagination-sm">
