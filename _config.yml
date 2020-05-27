@@ -27,21 +27,27 @@ typewrite-text: print(\"Let's develop it!\")
 author_work_experiences:
   - company_name: Apple Developer Academy (Feb 2019 - Present)
     company_logo: developer_academy.png
-    company_url: https://developeracademy.eldorado.org.br/campinas
+    company_url: developeracademy.eldorado.org.br/campinas
     designation: Internship
     description: Developed 6 complete projects for iOS by research with the target audience, designing the system and programming. Also developed other smaller projects. Use of agile methodologies.
     visibility: true
-  - company_name: Microsoft
-    company_logo: microsoft.png
-    company_url: https://microsoft.com
-    designation: Azure Developer
-    description: Worked on various Azure Cloud Products
+  - company_name: IBM/Unicamp (Jul 2018 - Sep 2019)
+    company_logo: ibm.png
+    company_url: openpower.ic.unicamp.br
+    designation: Scientific Initiation
+    description: Research and development in open source projects involving computational cloud and continuous validation. Ported more than 10 open source projects for Power architecture by working individually on our own Power cloud or together with the communities.
+    visibility: true
+  - company_name: Unicamp/CEL (Mar 2016 - Jul 2018)
+    company_logo: unicamp.jpg
+    company_url: www.cel.unicamp.br
+    designation: IT Technical Support
+    description: Technical support for professors and students. Bash shell script development to automate everyday tasks. Maintenance and administration of the network and machines. Website maintenance with Joomla/PHP technology. Teamwork with interns.
     visibility: true
 
 author_education_details:
   - college_logo: unicamp.jpg
     college_name: Bachelor of Computer Science
-    college_url: https://www.unicamp.br
+    college_url: www.unicamp.br
     college_degree: University of Campinas
     description:  2016 - 2021
     visibility: true
@@ -71,7 +77,7 @@ telegram_username: gsalibi
 #flickr_username: gsalibi
 
 #for comments
-hyvor_talk_website_id: 476
+hyvor_talk_website_id: 740
 
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
