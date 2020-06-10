@@ -132,6 +132,10 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
+collections:
+  projects:
+    output: true
+
 # Build settings
 plugins:
   - jekyll-feed

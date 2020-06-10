@@ -1,13 +1,9 @@
 ---
-layout: post
-title: How to deploy devlopr-jekyll Blog using Github Pages and Travis
-author: Sujay Kundu
-date: '2019-05-21 14:35:23 +0530'
-category:
-        - guides
-        - tutorials
-summary: Deployment Guide for devlopr-jekyll blog using Github Pages and Travis CI
-thumbnail: /assets/img/posts/deploy-using-github-pages-and-travis.png
+layout: project
+title:  "Página 2"
+description: Exemplo de description
+year: 2019
+thumbnail: /assets/img/posts/code.jpg
 ---
 
 This guide assumes that you already have created your blog and tested locally. If not please follow this tutorial : [Create a Blog using devlopr jekyll](https://devlopr.netlify.com/guides/2017/11/19/build-a-blog-using-devlopr-jekyll). Then come back and proceed with the deployment process.

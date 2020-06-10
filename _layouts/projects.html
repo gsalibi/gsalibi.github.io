@@ -6,21 +6,19 @@ layout: default
     <div class="col-lg-8 offset-md-1">
         <ul>
             <div class="row m-0">
-                {% if site.show_author_project_details == true %}
-                {% for project in site.author_project_details limit:5 %} {% if project.visibility == true %}
-
+                {% for project in site.projects %}
                 <div class="card blog-post wrap">
-                    <a href="{{project.project_url}}"></a>
+                    <a href="{{ project.url | prepend: site.baseurl }}"></a>
                     <img class="card-img-top"
-                        src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
-                        alt="{{ post.title }}">
+                        src="{{site.url}}{{site.baseurl}}/{{project.thumbnail}}"
+                        alt="{{ project.title }}">
                     <div class="card-body center">
-                        <h4 class="card-title">{{ project.project_title }}</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">{{ project.project_year }}</h6>
-                        <p class="card-text">{{ project.project_description }} </p>
+                        <h4 class="card-title">{{ project.title }}</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ project.year }}</h6>
+                        <p class="card-text">{{ project.description }} </p>
                     </div>
                 </div>
-                {% endif %} {% endfor %} {% endif %}
+                {% endfor %}
 
 
             </div>
