@@ -86,34 +86,30 @@ layout: default
             <h1 class="card-title">About</h1>
             <p>{{ site.author_bio }}</p>
         </div>
-        {% endif %} {% if site.show_author_project_details == true %}
         <div id="author_projects" class="card">
             <div id="recent-articles-header">
                 <div id="recent-articles-title">
                     <h1 class="card-title">Projects</h1>
                 </div>
                 <div id="recent-articles-show-all">
-                    <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
+                    <a class="btn btn-lg btn-dark" href="/projects"> View All </a>
                 </div>
             </div>
             <br />
-            {% for project in site.author_project_details limit:5 %} {% if project.visibility == true %}
+            {% for project in site.projects %}
             <li class="article-card">
-                <a href="{{project.project_url}}" class="article-card-link">
+                <a href="{{project.url}}" class="article-card-link">
                     <div id="article-container">
                         <div id="article-img">
-                            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" width="50px" height="50px" />
+                            <img src="{{site.url}}{{site.baseurl}}/{{project.thumbnail}}" width="50px" height="50px" />
                         </div>
                         <div id="article-link">
-                            <p class="recent-article-link">{{project.project_title}} <span style="color: #ccc; font-size: 15px;"> -
-                                    <i><time datetime="{{ post.date }}"
-                                            itemprop="datePublished">{{ project.project_year }}</time></i></span>
-                            </p>
+                            <p class="recent-article-link">{{project.title}} <span style="color: #ccc; font-size: 15px;"> - {{ project.year }}</span></p>
                         </div>
                     </div>
                 </a>
+                {% endfor %}
             </li>
-            {% endif %} {% endfor %}
         </div>
         {% endif %} {% if site.show_author_work_experiences == true %}
         <div class="card">
