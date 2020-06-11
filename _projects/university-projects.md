@@ -118,6 +118,9 @@ even in real time. <a
 
 ## Introduction to Digital Image Processing (2019)
 
+<img class="img-project" src="/assets/img/projects/c2-1.jpg" alt="Recognized faces" style="max-width: 600px" />
+<br>
+
 <hr>
 
 ## Databases
