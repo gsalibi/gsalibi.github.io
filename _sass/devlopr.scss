@@ -242,6 +242,19 @@ a {
     color: var(--link-color) !important;
 }
 
+li {
+    margin-left: 50px;
+}
+
+article p {
+    text-indent: 20px;
+}
+
+article hr {
+    border-top: 1px solid var(--underline-color);
+}
+
+
 .wrap{
     position: relative;
   }
@@ -317,8 +330,13 @@ header {
     margin: 15px;
 }
 
+
 .img-project {
-    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
 }
 
 #search-icon {
@@ -466,9 +484,6 @@ header {
 @media (min-width: 768px) {
     .offset-md-1 {
         margin-left: 3.333333% !important;
-    }
-    .img-project {
-        max-width: 40%;
     }
     // #topNav{
     //     padding-left: 100px;
