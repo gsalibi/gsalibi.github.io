@@ -12,6 +12,8 @@ urls:
     url: /about
   - text: Blog
     url: /blog
+  - text: Projects
+    url: /projects
   - text: Contact Me
     url: /contact
 
@@ -57,13 +59,13 @@ author_project_details:
   - project_thumbnail: hack4r.png
     project_title: Gamers Hub
     project_description: A Platform built for Gamers and Game Devs
-    project_url: https://gamershub.in
+    project_url: /
     project_year: 2020
     visibility: true
   - project_thumbnail: hack4r.PNG
     project_title: Hack4r
     project_description: A Platform built for Hackers and Penetration Testers
-    project_url: https://hack4r.com
+    project_url: /
     project_year: 2019
     visibility: true
 
@@ -99,7 +101,7 @@ google_analytics: UA-46783401-10
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: false
+show_author_project_details: true
 
 # algolia search
 algolia:
@@ -113,6 +115,9 @@ algolia:
 paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
+
+kramdown:
+  parse_block_html: true
 
 # minify
 # compress_html:
@@ -129,6 +134,10 @@ paginate_path: "/blog/page/:num/"
 #   layout: archive
 #   permalinks:
 #     category: '/category/:name/'
+
+collections:
+  projects:
+    output: true
 
 # Build settings
 plugins:
