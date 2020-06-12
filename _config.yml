@@ -139,6 +139,13 @@ collections:
   projects:
     output: true
 
+defaults:
+  -
+    scope:
+      path: 'assets/**'
+    values:
+      sitemap: false
+
 # Build settings
 plugins:
   - jekyll-feed
@@ -168,6 +175,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - README.md
+  - assets/vanilla-lazyload/demos
+  - bower_components/**/*.json
+  - bower_components/**/*.md
 
 destination: ./build
