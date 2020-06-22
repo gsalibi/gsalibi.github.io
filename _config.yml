@@ -150,6 +150,11 @@ defaults:
       path: 'admin/**'
     values:
       sitemap: false
+  -
+    scope:
+      path: 'privacy/**'
+    values:
+      sitemap: false
 
 # Build settings
 plugins:
