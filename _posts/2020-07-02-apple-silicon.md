@@ -20,7 +20,7 @@ be unsustainable and Apple announced ways to work around this problem, as we wil
 #### What are the differences between the current and the new architecture?
 
 The current processors use the x86_64 architecture (also called AMD64) and are produced by Intel, while the new Apple
-Silicon will use the AMD64 architecture and will be produced by Apple itself. Intel processors are based on a complex
+Silicon will use the ARM64 architecture and will be produced by Apple itself. Intel processors are based on a complex
 instruction set (CISC), while the new Apple chip will use a reduced instruction set (RISC).
 
 This implies several differences: CISC processors have higher clock rate, are more expensive to produce and tend to be
@@ -140,7 +140,7 @@ For those who want to start working with ARM on macOS right now, Apple launched 
 <hr>
 <br>
 
-## What are the impacts for users?
+## What are the impacts on users?
 
 Currently Apple already has its applications running natively on ARM, as presented at WWDC. They also worked with some major companies, such as Adobe, to make Creative Cloud available, and Microsoft to bring Office.
 
@@ -171,7 +171,7 @@ Currently, this activity is possible thanks to the hardware components used by A
 
 As Apple Silicon will be exclusive to Apple, it will no longer be possible to use computers legally manufactured by other companies to run macOS. But that shouldn't be an immediate problem, as the new macOS continues to have a native version on x86_64 and, in addition, Apple will support previous versions for years. At least until 2022 the new macOS will have an Intel version.
 
-When Apple starts releasing only AMD64 systems, whose date is uncertain, if the Hackintosh market persists, they may have to resort to chip piracy or emulation, which can greatly impact performance.
+When Apple starts releasing only ARM64 systems, whose date is uncertain, if the Hackintosh market persists, they may have to resort to chip piracy or emulation, which can greatly impact performance.
 
 <br>
 <hr>
