@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem 'jekyll', '~> 4.0.0'
 gem 'bundler'
 gem 'kramdown'
-gem 'rack-jekyll', '>= 2.1.4'
+gem 'rack-jekyll'
 gem 'rake'
 gem 'puma'
 
