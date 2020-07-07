@@ -8,8 +8,7 @@ category: Apple
 thumbnail: /assets/img/posts/apple-silicon.png
 ---
 Widgets, app clips, iOS 14, watchOS, macOS Big Sur. There were several new features presented during Apple's annual
-event, WWDC, but one of them certainly stands out: Apple Silicon. The adoption of this new architecture, expected for
-all Apple computers by 2022, will imply several changes for Apple and perhaps for the technology market as a whole.
+event, WWDC, but one of them certainly stands out: Apple Silicon. The adoption of this new architecture, expected for all of the company's computers by 2022, will entail several internal changes and, perhaps, for the technology market as a whole.
 
 Apple Silicon is the name of the new processors family that will start to be used in new Apple computers until the end
 of this year. But this is far from being a simple processor upgrade. It is an implementation in a completely different
@@ -23,7 +22,7 @@ The current processors use the x86_64 architecture (also called AMD64) and are p
 Silicon will use the ARM64 architecture and will be produced by Apple itself. Intel processors are based on a complex
 instruction set (CISC), while the new Apple chip will use a reduced instruction set (RISC).
 
-This implies several differences: CISC processors have higher clock rate, are more expensive to produce and tend to be
+This implies several differences: CISC processors typically have higher clock rate, are more expensive to produce and tend to be
 more powerful in performance. However, they are bigger and consume more energy. Processors that use RISC, on the other
 hand, usually result in smaller, cheaper and less energy-consuming designs. This makes them widely adopted in the
 smartphone market.
